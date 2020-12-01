@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>Calm Mind</title>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+
+  <!---Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<!--- BODY --->
+
+<body>
+  <!--- Card --->
+  <button type="button" class="btn btn-primary btn-lg btn-block" id="topBtn">Get 1 month for free! Sign up now!</button>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-light bg-light">
+
+    <div class="container" id="navItems">
+      <a class="navbar-brand" href="#">CALM MIND</a>
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="aboutus.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">EXPLORE</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SIGN UP</a>
+        </li>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!--- MAIN --->
+  <main>
+
+    <div class="col-md-8 order-md-1">
+        <h2 class="mb-3 text-uppercase text-left">Login</h2>
+        <form class="needs-validation" novalidate>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <label for="firstName">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+            <div class="col-md-6 mb-3">
+              <label for="lastName">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="username">Username</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text">@</span>
+              </div>
+              <input type="text" class="form-control" id="username" placeholder="Username" required>
+              <div class="invalid-feedback" style="width: 100%;">
+                Your username is required.
+              </div>
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="email">Email <span class="text-muted">(Optional)</span></label>
+            <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            <div class="invalid-feedback">
+              Please enter a valid email address for shipping updates.
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="1234 Main St" required>
+            <div class="invalid-feedback">
+              Please enter your shipping address.
+            </div>
+          </div>
+  
+          <div class="mb-3">
+            <label for="address2">Address 2 <span class="text-muted">(Optional)</span></label>
+            <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
+          </div>
+  
+          <div class="row">
+            <div class="col-md-5 mb-3">
+              <label for="country">Country</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">Choose...</option>
+                <option>United States</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="state">State</label>
+              <select class="custom-select d-block w-100" id="state" required>
+                <option value="">Choose...</option>
+                <option>California</option>
+              </select>
+              <div class="invalid-feedback">
+                Please provide a valid state.
+              </div>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="zip">Zip</label>
+              <input type="text" class="form-control" id="zip" placeholder="" required>
+              <div class="invalid-feedback">
+                Zip code required.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="same-address">
+            <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
+          </div>
+          <div class="custom-control custom-checkbox">
+            <input type="checkbox" class="custom-control-input" id="save-info">
+            <label class="custom-control-label" for="save-info">Save this information for next time</label>
+          </div>
+
+ 
+
+
+
+
+  </main>
+  <!---- Footer ---->
+  <footer class="">
+
+
+    <form class="form-signin">
+      <div class="text-center mb-4">
+        <img class="" src="/images/Earth-Souls-Logo-1-150x150.png" alt="logo">
+        <p>Subscribe to our newsletter to receive exclusive offers and hear about new videos!</p>
+      </div>
+
+
+      <div class="row justify-content-md-center" id="emailDiv">
+      <form class="form" id="email">
+        <input class="form-control rounded-0 mr-sm-2 col-6" type="search" placeholder="Email" aria-label="Search">
+        <button class="btn btn-dark rounded-0 my-2 my-sm-0 pl-5 pr-5" type="submit"><p>SUBSCRIBE</p></button>
+      </form>
+    </div>
+
+
+      <ul class="bottomFooter">
+        <li>&copy; 2020 Erin Hancock. All Rights Reserved.</li>
+        <li>Privacy</li>
+        <li>Terms</li>
+        <li>Website by Erin Hancock</li>
+      </ul>
+
+
+      </div>
+  </footer>
+
+
+
+
+  <!-- jQuery and JS bundle w/ Popper.js -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>

@@ -62,7 +62,23 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	font-size: 1.5rem;
+	/* font-size: 1.5rem; */
+}
+h2{
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+p{
+    font-size: 1.2rem;
+    text-align: center;
+    line-height: 1.8;
+    font-weight: 300;
+
+}
+.captions{
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 
@@ -125,4 +141,121 @@ body {
 }
 .carousel-caption h1{
     padding-bottom: 20px;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+/*-----buttons------*/
+.btn-primary, .btn-primary a {
+    background-color: rgb(151, 197, 159);
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: white;
+
+}
+
+a{
+    color: white;
+}
+
+.btn-primary:hover{
+    background-color: rgb(151, 197, 159);
+}
+
+.btn-dark a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-secondary{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 300;
+    width: 100%;
+    padding: 5%
+}
+
+.btn-secondary:hover{
+    background-color: white;
+    color: black;
+}
+#readMoreBtn{
+    padding-bottom: 40px;
+}
+
+
+iframe{
+    padding: 2% 0px 10% 0px;
+}
+
+#paragraphTwo h2, #paragraphTwo p{
+    text-align: left;
+}
+
+#icons{
+    display: flex;
+    align-content: center;
+}
+#icons img{
+    width: 100px;
+    margin: 2%;
+    align-self: center;
+}
+
+.no-margin{
+    margin:0 !important;
+    padding:0;
+}
+
+#freeTrial{
+    background-color: black;
+    padding-bottom: 50px;
+}
+
+#freeTrial p{
+    text-align: left;
+}
+#freeTrial h2 {
+    text-align: left;
+    padding-bottom: 5%;
+
+}
+footer{
+    background-color: rgb(143, 187, 147);
+}
+footer img{
+    width: 120px;
+}
+
+
+
+
+#emailDiv{
+    padding: 10px 0 30px 0;
+}
+
+.bottomFooter{
+    display: flex;
+    justify-content: space-around;
+    font-size: .8rem;
+    padding-bottom: 50px;
+    color: white;
+    font-family: "Lato";
+}
+
+
+
+
+
+/*------ABOUT US PAGE-------*/
+.jumbotron {
+    background-color:  rgb(151, 197, 159);
+    color: white;
 }
