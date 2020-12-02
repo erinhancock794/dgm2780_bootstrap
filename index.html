@@ -24,8 +24,36 @@
 <!--- BODY --->
 
 <body>
+
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2>Calm mind monthly newsletter</h2>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="col-md-12 pl-3 ml-3 mr-3 mb-3">
+            <p>Subscribe to our newsletter to stay up to date on upcoming classes and discounts!</p>
+
+            <label class="mb-1" for="email">Email</label>
+            <input type="email" class="form-control" id="email" placeholder="">
+        </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
   <!--- Card --->
-  <button type="button" class="btn btn-primary btn-lg btn-block" id="topBtn"><a href="contact.html">Get 1 month for free! Sign up now!</a></button>
+  <button type="button" class="btn btn-primary btn-lg btn-block" id="topBtn"><a href="contact.html">Get 1 month for
+      free! Sign up now!</a></button>
 
   <!-- Navigation -->
   <nav class="navbar navbar-light bg-light">
@@ -71,10 +99,10 @@
             <button type="button" class="btn btn-dark"><a href="/contact.html"> START FREE TRIAL</a></button>
           </div>
 
-          <div class="carousel-item active" data-interval="10000">
+          <div class="carousel-item active" >
             <img src="/images/pexels-cliff-booth-4056723.jpg" class="img-fluid" alt="image one">
           </div>
-          <div class="carousel-item" data-interval="10000">
+          <div class="carousel-item" >
             <img src="/images/pexels-editor-belal-3150250.jpg" class="d-block w-100" alt="image two">
           </div>
           <div class="carousel-item" data-interval="10000">
@@ -225,7 +253,7 @@
       </div>
     </div>
     </div>
->
+
 
 
   </main>
@@ -241,11 +269,13 @@
 
 
       <div class="row justify-content-md-center" id="emailDiv">
-      <form class="form" id="email">
-        <input class="form-control rounded-0 mr-sm-2 col-6" type="search" placeholder="Email" aria-label="Search">
-        <button class="btn btn-dark rounded-0 my-2 my-sm-0 pl-5 pr-5" type="submit"><p>SUBSCRIBE</p></button>
-      </form>
-    </div>
+        <form class="form" id="email">
+          <input class="form-control rounded-0 mr-sm-2 col-6" type="search" placeholder="Email" aria-label="Search">
+          <button class="btn btn-dark rounded-0 my-2 my-sm-0 pl-5 pr-5" type="submit">
+            <p>SUBSCRIBE</p>
+          </button>
+        </form>
+      </div>
 
 
       <ul class="bottomFooter">
@@ -269,6 +299,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
+
+  <script>
+    $(window).on('load', function () {
+      $('#myModal').modal('show')
+    })
+
+    $('.carousel').carousel({
+  interval: 2000
+})
+
+  </script>
 
 </body>
 
