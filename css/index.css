@@ -82,16 +82,7 @@ p{
 }
 
 
-/*----top button-----*/
-#topBtn{
-    background-color: rgb(151, 197, 159);
-    border: none;
-    border-radius: 0%;
-    height: 52px;
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    /* position: fixed; */
-}
+
 
 /*----navbar----*/
 .navbar {
@@ -150,46 +141,85 @@ img{
 
 
 /*-----buttons------*/
-.btn-primary, .btn-primary a {
+
+/*----top button-----*/
+#topBtn{
     background-color: rgb(151, 197, 159);
     border: none;
+    border-radius: 0%;
+    /* max-height: 52px; */
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    padding: 6px;
+    color: white;
+    /* position: sticky; */
+}
+#topBtn a{
     text-decoration: none;
     color: white;
-
 }
 
-a{
+#topBtn a:hover{
+    color: black;
+    transition: .9s;
+}
+#heroBtn a{
     color: white;
 }
 
-.btn-primary:hover {
+#heroBtn:hover{
+    background-color: black;
+    color: rgb(151, 197, 159);
+}
+
+.btn {
     background-color: rgb(151, 197, 159);
+    border: none;
+    border-radius: 0%;
+    padding: 4% 10%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: white;
+    /* position: fixed; */
+}
+
+.btn:hover {
+    background-color: rgb(151, 197, 159);
+    color: black;
+    transition: .9s;
+
+}
+
+
+.btn-dark{
+    background-color: white;
+    color: black;
+    border: none;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 5%
+}
+
+.btn-dark:hover{
+    text-decoration: none;
+    background-color: white;
+    color: rgb(151, 197, 159);
 }
 
 .btn-dark a:hover{
     text-decoration: none;
-    color: white;
+    /* background-color: white; */
+    color: rgb(151, 197, 159);
 }
 
-.btn-secondary{
-    background-color: white;
-    color: black;
-    border: none;
-    font-weight: 300;
-    width: 100%;
-    padding: 5%
-}
-
-.btn-secondary:hover{
-    background-color: white;
-    color: black;
-}
 #readMoreBtn{
     padding-bottom: 40px;
 }
 
+
+#footerBtn{
+    padding: 0;
+}
 
 iframe{
     padding: 2% 0px 10% 0px;
