@@ -6,5 +6,4 @@
 Modal, Carousel, Forms, Buttons, Navigation Bar, Jumbotron, and Input Groups
 
 #### Design Inspiration
-I used Earth Souls Yoga as inspiration for the design.
-https://earthsoulsyoga.com
+I used [Earth Souls Yoga](https://earthsoulsyoga.com) as inspiration for the design.
