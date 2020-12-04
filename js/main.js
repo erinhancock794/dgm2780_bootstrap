@@ -19,3 +19,39 @@
     }, false)
   })()
   
+
+  $(window).on('load', function () {
+    $('#myModal').modal('show')
+  })
+
+  $('.carousel').carousel({
+    interval: 2000
+  })
+
+  function terms_change(checkbox) {
+    //If it is checked.
+    if (checkbox.checked) {
+        console.log('checked');
+    }
+    //If it has been unchecked.
+    else {
+        console.log('unchecked');
+    }
+};
+
+
+function validate() { //ensures that at least one checkbox is ticked
+    let checkBoxes = document.getElementsByClassName('myCheckBox');
+    let isChecked = false;
+    for (var i = 0; i < checkBoxes.length; i++) {
+        if (checkBoxes[i].checked) {
+            isChecked = true;
+        };
+    };
+    if (isChecked) {
+        return;
+    } else {
+        alert('Must select at least one update!');
+        
+    }
+}

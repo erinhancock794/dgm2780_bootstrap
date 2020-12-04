@@ -27,7 +27,7 @@
 
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
-    
+
       <!-- Modal content-->
       <div class="modal-content">
         <div class="modal-header">
@@ -37,16 +37,13 @@
         <div class="modal-body">
           <div class="col-md-12 pl-3 ml-3 mr-3 mb-3">
             <p>Subscribe to our newsletter to stay up to date on upcoming classes and discounts!</p>
-
-            <label class="mb-1" for="email">Email</label>
-            <input type="email" class="form-control" id="email" placeholder="">
+          </div>
         </div>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Submit</button>
+        <div class="modal-footer d-flex justify-content-center px-2">
+          <button type="button" class="btn btn-default"> <a href="subscribe.html"> Subscribe</a></button>
         </div>
       </div>
-      
+
     </div>
   </div>
 
@@ -96,13 +93,14 @@
         <div class="carousel-inner">
           <div class="carousel-caption d-none d-md-block" id="heroCaption">
             <h1>YOGA. MEDITATION. ECOLIFE</h1>
-            <button type="button" class="btn btn-dark" id="heroBtn"><a href="/contact.html"> START FREE TRIAL</a></button>
+            <button type="button" class="btn btn-dark" id="heroBtn"><a href="/contact.html"> START FREE
+                TRIAL</a></button>
           </div>
 
-          <div class="carousel-item active" >
+          <div class="carousel-item active">
             <img src="/images/pexels-cliff-booth-4056723.jpg" class="img-fluid" alt="image one">
           </div>
-          <div class="carousel-item" >
+          <div class="carousel-item">
             <img src="/images/pexels-editor-belal-3150250.jpg" class="d-block w-100" alt="image two">
           </div>
           <div class="carousel-item" data-interval="10000">
@@ -162,7 +160,7 @@
       <div class="row">
         <div class="col"> </div>
         <div class="col-3">
-          <button class="btn btn-default my-4 px-5 mx-auto d-block rounded-0 type="submit">VIEW ALL CLASSES</button>
+          <button class="btn btn-default my-4 px-5 mx-auto d-block rounded-0 type=" submit">VIEW ALL CLASSES</button>
         </div>
         <div class="col"> </div>
       </div>
@@ -271,8 +269,10 @@
       <div class="row justify-content-md-center" id="emailDiv">
         <form class="form" id="email">
           <input class="form-control rounded-0 mr-sm-2 col-6" type="search" placeholder="Email" aria-label="Search">
-          <button class="btn btn-dark rounded-0 my-2 my-sm-0 pl-5 pr-5" id="footerBtn" type="submit">
-            <p>SUBSCRIBE</p>
+          <button class="btn btn-dark rounded-0 my-2 my-sm-0 pl-5 pr-5" id="footerBtn" type="submit"><a
+              href="subscribe.html">
+              <p>SUBSCRIBE</p>
+            </a>
           </button>
         </form>
       </div>
@@ -299,17 +299,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
 
-  <script>
-    $(window).on('load', function () {
-      $('#myModal').modal('show')
-    })
-
-    $('.carousel').carousel({
-  interval: 2000
-})
-
-  </script>
 
 </body>
 
