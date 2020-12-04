@@ -62,7 +62,6 @@ body {
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-	/* font-size: 1.5rem; */
 }
 h2{
     font-size: 1.5rem;
@@ -88,7 +87,6 @@ p{
 .navbar {
     background-color: white;
     margin: auto;
-    /* padding: 20px 140px; */
     
 }
 #navItems{
@@ -199,12 +197,10 @@ img{
     background-color: white;
     border: none;
     border-radius: 0%;
-    /* max-height: 52px; */
     font-family: 'Lato', sans-serif;
     font-weight: 300;
     padding: 0;
     color: black;
-    /* position: sticky; */
 }
 #footerBtn a{
     text-decoration: none;
@@ -259,9 +255,6 @@ footer img{
     width: 120px;
 }
 
-
-
-
 #emailDiv{
     padding: 10px 0 30px 0;
 }
@@ -274,9 +267,6 @@ footer img{
     color: white;
     font-family: "Lato";
 }
-
-
-
 
 
 /*------ABOUT US PAGE-------*/
