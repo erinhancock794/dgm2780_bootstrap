@@ -1,3 +1,16 @@
+// gsap.to(".topButton", {duration: 3, x: 300});
+
+
+gsap.to(".gsap", { 
+  duration: 1.5,
+  repeat: -1,
+  "--x": 1,
+  "--y": 1,
+  "--angle": "360deg"
+});
+
+
+
 (function () {
     'use strict'
   
@@ -55,3 +68,4 @@ function validate() { //ensures that at least one checkbox is ticked
         
     }
 }
+
